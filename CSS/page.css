@@ -4,8 +4,7 @@
 .page {
     width: 78%;
     height: 100vh;
-    margin: 0 auto;
-    margin-bottom: 1%;
+    margin: 1% auto;
     background-color: aqua;
     color: var(--primary-color); 
 }
@@ -17,13 +16,11 @@
     display: grid;
     height: auto;
 
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    
 }
 .navIcon {
     background-color: azure;
-    border: solid 2px red;
+    border: solid 2px rgb(6, 0, 59);
     min-height: 50px;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -37,7 +34,7 @@
 }
 #homeGrid { 
     grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: repeat(6, 120px);
+    grid-template-rows: repeat(6, 100px);
     grid-column-gap: var(--gap);
     grid-row-gap: var(--gap);
 }
