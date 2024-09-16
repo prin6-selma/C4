@@ -1,0 +1,25 @@
+#articleList {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}   
+#articleList li {
+    width: 400px;
+    background-color: rgb(0, 66, 44);
+    color: azure;
+    padding: 1%;   
+    margin: 2%;
+    min-width: 200px; 
+}
+#articleList h1 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 1.5%;
+}
+.subHeading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
