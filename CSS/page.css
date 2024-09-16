@@ -18,7 +18,7 @@
 }
 .navIcon {
     min-height: 50px;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     transition: all 0.5s;   
