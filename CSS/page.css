@@ -1,57 +1,71 @@
+:root {
+    --gap: 15px;
+}
 .page {
     width: 78%;
     height: 100vh;
     margin: 0 auto;
     margin-bottom: 1%;
     background-color: aqua;
-    color: var(--primary-color);
-    padding: 5%;    
+    color: var(--primary-color); 
 }
 .page h1 {
     display: none;
 }
 .navGrid {
-    background-color: black;
-    padding: 5px;
+    padding: var(--gap);
     display: grid;
-    
+    height: auto;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .navIcon {
     background-color: azure;
     border: solid 2px red;
     min-height: 50px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.5s;   
+}
+.navIcon:hover {
+    background-size: 140%;
+    border-radius: 20px;
+    transition: all 0.5s;
 }
 #homeGrid { 
     grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
+    grid-template-rows: repeat(6, 120px);
+    grid-column-gap: var(--gap);
+    grid-row-gap: var(--gap);
 }
 #homeIcon {
     grid-area: 1 / 1 / 5 / 5;
-    background-color: #ff0000;
+    background-image: url(../IMG/home-icon.png);
 }
 #ontmoetIcon {
     grid-area: 1 / 5 / 4 / 7;
-    background-color: #1100ff;
+    background-image: url(../IMG/ontmoet-icon.png);
 }
 #fokusIcon {
     grid-area: 1 / 7 / 3 / 10;
-    background-color: #00ff26;
+    background-image: url(../IMG/fokus-icon.png);
 }
 #boomIcon  {
     grid-area: 5 / 1 / 7 / 5;
-    background-color: #00c8ff;
+    background-image: url(../IMG/boom-icon.png);
 }
 #ontspanIcon {
     grid-area: 4 / 5 / 7 / 7;
-    background-color: #fff700;
+    background-image: url(../IMG/ontspan-icon.png);
 }
 #koopIcon {
-    grid-area: 5 / 7 / 7 / 10;  
-    background-color: #ff8080;    
+    grid-area: 5 / 7 / 7 / 10;
+    background-image: url(../IMG/koop-icon.png);    
 }
 #leerIcon {
     grid-area: 3 / 7 / 5 / 10;
-    background-color: #ff00bb;
+    background-image: url(../IMG/leer-icon.png);
 }
