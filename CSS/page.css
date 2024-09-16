@@ -1,9 +1,16 @@
 .page {
-    width: 90%;
+    width: 78%;
     height: 100vh;
     margin: 0 auto;
     margin-bottom: 1%;
     background-color: aqua;
     color: var(--primary-color);
-    
+    padding: 5%;    
+}
+.page h1 {
+    display: none;
+}
+.navGrid {
+    display: grid;
+    grid-template-columns: repeat(9 1fr);
 }
