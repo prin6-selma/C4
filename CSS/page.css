@@ -1,0 +1,9 @@
+.page {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    background-color: aqua;
+    color: var(--primary-color);
+    
+}

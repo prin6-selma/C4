@@ -6,8 +6,16 @@
 body {
     background-color: #1a0022;
 }
+:root {
+    --primary-color: #ff0000;
+    --background-color: #000;
+}
+
+
+
+
 /* Header */
-header {
+nav {
     width: 10px;
     height: 100%;
     overflow: hidden;
@@ -17,7 +25,7 @@ header {
     padding: 10px;
     color: #fff;
 }
-header h1 {
+nav h1 {
     width: fit-content;
     margin: 0 auto;
     opacity: 0;
@@ -43,15 +51,15 @@ header h1 {
     opacity: 0;
     transition: all 0.5s;
 }
-header:hover {
+nav:hover {
     width: 300px;
     transition: all 0.5s;
 }
-header:hover #nav_list li {
+nav:hover #nav_list li {
     opacity: 1;
     transition: all 0.5s;
 }
-header:hover h1 {
+nav:hover h1 {
     opacity: 1;
     transition: all 0.5s;
 }
