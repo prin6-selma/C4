@@ -11,6 +11,47 @@
     display: none;
 }
 .navGrid {
+    background-color: black;
+    padding: 5px;
     display: grid;
-    grid-template-columns: repeat(9 1fr);
+    
+}
+.navIcon {
+    background-color: azure;
+    border: solid 2px red;
+    min-height: 50px;
+}
+#homeGrid { 
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+#homeIcon {
+    grid-area: 1 / 1 / 5 / 5;
+    background-color: #ff0000;
+}
+#ontmoetIcon {
+    grid-area: 1 / 5 / 4 / 7;
+    background-color: #1100ff;
+}
+#fokusIcon {
+    grid-area: 1 / 7 / 3 / 10;
+    background-color: #00ff26;
+}
+#boomIcon  {
+    grid-area: 5 / 1 / 7 / 5;
+    background-color: #00c8ff;
+}
+#ontspanIcon {
+    grid-area: 4 / 5 / 7 / 7;
+    background-color: #fff700;
+}
+#koopIcon {
+    grid-area: 5 / 7 / 7 / 10;  
+    background-color: #ff8080;    
+}
+#leerIcon {
+    grid-area: 3 / 7 / 5 / 10;
+    background-color: #ff00bb;
 }
