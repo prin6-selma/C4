@@ -4,7 +4,7 @@
     inset: 0;
 }
 body {
-    background-color: #1a0022;
+    background-color: #ffffff;
 }
 :root {
     --primary-color-1: #38b6ff;
@@ -21,7 +21,7 @@ body {
 
 
 
-/* Header */
+/* Nav */
 nav {
     width: 10px;
     height: 100%;
@@ -71,15 +71,14 @@ nav:hover h1 {
     transition: all 0.5s;
 }
 
-/* Main */
-main {
+
+/* main {
     background-color: lightblue;
     width: 100%;
     height: auto;
 }
 
 .container {
-    /* width: 60%; */
     width: fit-content;
     margin: 0 auto;
     padding: 5px;
@@ -111,7 +110,6 @@ main {
     padding: 10px;
     border-radius: 12px;
 
-    /* opacity: 0; */
     transition: all 0.5s;
 }
 .nav_block a {
@@ -194,7 +192,6 @@ main {
 }
 
 .nav_block img {
-    /* display: none; */
     position: absolute;
     object-fit: cover;
 }
@@ -208,9 +205,9 @@ main {
     opacity: 1;
     transition: all 0.5s;
 }
-/* Footer */
+
 footer {
     background-color: brown;
     width: 100%;
     height: 0;
-}
+} */

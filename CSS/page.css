@@ -14,21 +14,17 @@
 .navGrid {
     padding: var(--gap);
     display: grid;
-    height: auto;
-
-    
+    height: auto;    
 }
 .navIcon {
-    background-color: azure;
-    border: solid 2px rgb(6, 0, 59);
     min-height: 50px;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     transition: all 0.5s;   
 }
-.navIcon:hover {
-    background-size: 140%;
+.resize:hover {
+    background-size: 120%;
     border-radius: 20px;
     transition: all 0.5s;
 }
@@ -40,7 +36,7 @@
 }
 #homeIcon {
     grid-area: 1 / 1 / 5 / 5;
-    background-image: url(../IMG/home-icon.png);
+    background-image: url(../IMG/logo-trans-back.png);
 }
 #ontmoetIcon {
     grid-area: 1 / 5 / 4 / 7;
