@@ -7,7 +7,14 @@ body {
     background-color: #1a0022;
 }
 :root {
-    --primary-color: #ff0000;
+    --primary-color-1: #38b6ff;
+    --primary-color-2: #8c52ff;
+    --primary-color-3: #f13da8;
+    --primary-color-4: #ffde59;
+    --primary-color-5: #000000;
+    --primary-color-6: #ffffff;
+
+    
     --background-color: #000;
 }
 
