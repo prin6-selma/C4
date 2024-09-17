@@ -17,7 +17,7 @@
     height: auto;    
 }
 .navIcon {
-    min-height: 50px;
+    /* aspect-ratio: 2; */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -28,9 +28,30 @@
     border-radius: 20px;
     transition: all 0.5s;
 }
+/* Image Ratios */
+.r4-4 {
+    aspect-ratio: calc(4/4);
+}
+.r4-2 {
+    aspect-ratio: calc(4/2);
+}
+.r2-3 {
+    aspect-ratio: calc(2/3);
+}
+.r3-2 {
+    aspect-ratio: calc(3/2);
+}
+.r2-3 {
+    aspect-ratio: calc(2/3);
+}
+
+
+/* Home Page */
+
 #homeGrid { 
     grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: repeat(6, 100px);
+    grid-template-rows: repeat(6, fit-content);
+    /* grid-auto-rows: 1fr; */
     grid-column-gap: var(--gap);
     grid-row-gap: var(--gap);
 }
