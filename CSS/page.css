@@ -3,7 +3,7 @@
 }
 .page {
     width: 78%;
-    height: 100vh;
+    height: fit-content;
     margin: 1% auto;
     background-color: aqua;
     color: var(--primary-color); 
@@ -24,7 +24,7 @@
     transition: all 0.5s;   
 }
 .resize:hover {
-    background-size: 120%;
+    /* background-size: 120%; */
     border-radius: 20px;
     transition: all 0.5s;
 }
@@ -37,6 +37,7 @@
 #homeIcon {
     grid-area: 1 / 1 / 5 / 5;
     background-image: url(../IMG/logo-trans-back.png);
+    background-size: contain !important;
 }
 #ontmoetIcon {
     grid-area: 1 / 5 / 4 / 7;
@@ -49,6 +50,7 @@
 #boomIcon  {
     grid-area: 5 / 1 / 7 / 5;
     background-image: url(../IMG/boom-icon.png);
+    background-size: contain !important;
 }
 #ontspanIcon {
     grid-area: 4 / 5 / 7 / 7;
