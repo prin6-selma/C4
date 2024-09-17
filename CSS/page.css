@@ -21,12 +21,20 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    /* border-bottom: solid 0 red;
+    border-right: solid 0 red; */
     transition: all 0.5s;   
 }
 .resize:hover {
     /* background-size: 120%; */
     border-radius: 20px;
+    /* border-bottom: solid 4px red;
+    border-right: solid 4px red; */
     transition: all 0.5s;
+    cursor: pointer;
+
+    box-shadow: 5px 5px 5px 5px rgba(0, 9, 88, 0.589);
+    
 }
 /* Image Ratios */
 .r4-4 {
