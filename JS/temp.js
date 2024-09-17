@@ -11,7 +11,7 @@ fs.readdir(folderPath, (err, files) => {
         return;
     }
     files.forEach(file => {
-        const articleList
+        // const articleList
         const articleBlock = document.createElement('div');
         articleBlock.classList.add('');
         articleBlock.id = `ab-${file}`;

@@ -25,15 +25,23 @@
     border-right: solid 0 red; */
     transition: all 0.5s;   
 }
-.resize:hover {
-    /* background-size: 120%; */
-    border-radius: 20px;
-    /* border-bottom: solid 4px red;
-    border-right: solid 4px red; */
+.resize {
     transition: all 0.5s;
-    cursor: pointer;
 
+    position: relative;
+    top: 0;
+    right: 0;
+}
+.resize:hover {
+    transition: all 0.5s;
+
+    border-radius: 12px;    
+    cursor: pointer;
     box-shadow: 5px 5px 5px 5px rgba(0, 9, 88, 0.589);
+    position: relative;
+    top: -7px;
+    left: -7px;
+    z-index: 10;
     
 }
 /* Image Ratios */

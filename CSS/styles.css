@@ -25,12 +25,14 @@ html {
 
 /* Nav */
 nav {
+    transition: all 0.5s;
+
     width: 10px;
     height: 100%;
     overflow: hidden;
     background: #000;
     position: fixed;
-    transition: all 0.5s;
+    
     padding: 10px;
     color: #fff;
 }
@@ -57,27 +59,42 @@ nav li {
     padding: 8px;    
     list-style: none;
     opacity: 0;
-    transition: all 0.5s;
 }
 .mainNav li:hover {
     border-bottom: solid 4px #f13da8;
     font-weight: bolder;
+    
 }
 .subNav li:hover {
     border-bottom: solid 4px #8c52ff;
     font-weight: bolder;
+    
 }
 .mainNav li {
     background-color: #8c52ff;
+    border-bottom: solid 0px #f13da8;
+    
+    
+}
+.subNav {
+    transition: all 0.5s;
+    height: 0;
+    overflow: hidden;
+}
+.activeSubNav {
+    transition: all 0.5s;
+    height: fit-content;
+
 }
 .subNav li {
     background-color: #f13da8;
+    border-bottom: solid 0px #8c52ff;    
 }
 nav:hover {
     width: 300px;
     transition: all 0.5s;
 }
-nav:hover #nav_list li {
+nav:hover li {
     opacity: 1;
     transition: all 0.5s;
 }
