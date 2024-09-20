@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "firstName":"Carla",
+        "lastName":"Bota",
+        "middleName":"Selma",
+        "birthDate":"1988-03-10",
+        "title":"Me."
+    },
+    {
+        "id":2,
+        "firstName":"Dean",
+        "lastName":"van Zyl",
+        "middleName":"Jacobus Andreas",
+        "birthDate":"2004-22-11",
+        "title":"Mr."
+    },
+    {"id":3,"firstName":"Robert","lastName":"Johnson","middleName":"James","birthDate":"1970-03-22","title":"Dr."},
+    {"id":4,"firstName":"Emily","lastName":"Williams","middleName":"Patricia","birthDate":"1995-11-12","title":"Ms."},
+    {"id":5,"firstName":"Michael","lastName":"Brown","middleName":"Richard","birthDate":"1960-08-20","title":"Mr."},
+    {"id":8,"firstName":"Carla","lastName":"Bota","middleName":"Selma","birthDate":"1988-03-10","title":"Me"}
+]

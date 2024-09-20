@@ -1,0 +1,30 @@
+[
+    {
+        "id": 2,
+        "name": "Legalising the Recreational Use of Marijuana Will Have a Beneficial Impact on a Country's Economy",
+        "publishDate": "2023-13-09",
+        "authors": [2],
+        "summary": "By the year 2022, the sale of marijuana had generated more than 3 billion dollars in annual tax revenue, making a substantial contribution to the economy of the United States of  America."
+    },
+    {
+        "id": 1,
+        "name": "Article 2",
+        "publishDate": "2022-02-01",
+        "authors": [3],
+        "summary": "This article explores the benefits of regular exercise, including improved physical health, mental well-being, and increased productivity."
+    },
+    {
+        "id": 3,
+        "name": "Article 3",
+        "publishDate": "2022-03-01",
+        "authors": [4, 5],
+        "summary": "This article discusses the importance of time management, including strategies for prioritizing tasks, avoiding procrastination, and achieving a better work-life balance."
+    },
+    {
+        "id": 4,
+        "name": "Article 4",
+        "publishDate": "2022-04-01",
+        "authors": [8],
+        "summary": "This article examines the role of technology in modern education, including the benefits and drawbacks of online learning, and the impact on student outcomes."
+    }
+]
