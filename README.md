@@ -1,6 +1,6 @@
 # C4 Akademie Website
 
-![Website](prin6-selma.github.io/C4)
+[Visit C4 Website](https://prin6-selma.github.io/C4)
 
 ## About
 
