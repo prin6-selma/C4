@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-size: 3em;
+    text-align: center;
+    padding: 20px; /* Add padding for better spacing */
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; /* Add gap between grid items */
+    margin-top: 20px;
+}
+
+nav div {
+    
+    width: 100%;
+}
+nav div a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+nav div button {
+    font-size: 2.5em; 
+    width: 400px;
+    height: 80px; /* Adjusted height for better proportion */
+    text-align: center;
+}
+/* Extra Small Devices (phones) */
+/* Small Devices (tablets) */
+@media (max-width: 577px) {
+    
+}
+
+/* Medium Devices (laptops) */
+@media (max-width: 769px) {
+    nav div button {
+        font-size: 2.5em; 
+        width: 100px;
+        height: 80px;
+    }     
+}
+
+/* Large Devices (desktops) */
+@media (max-width: 993px) {
+    nav div button {
+        font-size: 2.5em; 
+        width: 100px;
+        height: 80px;
+    }     	            
+}
+
+@media (max-width: 1200px) {
+    nav div button {
+        font-size: 2.5em; 
+        width: 100px;
+        height: 80px;
+    }     	            
+}
+
+@media (max-width: 1400px) {
+    nav div button {
+        font-size: 2.5em; 
+        width: 100px;
+        height: 80px;
+    }          	            
+}
+
+@media (max-width: 1600px) {
+    nav div button {
+        width: 100px;
+        height: 80px;
+    }     	            
+}
+@media (max-width: 1800px) {
+    nav div button {
+        width: 350px;
+    }        	            
+}

@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Selected {
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.Selected div {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    background-color: #f4a216;
+    width: 90%;
+    height: 10px;
+    visibility: hidden;
+}
+#Page1 {
+    grid-column: 1 / span 1;
+    visibility: visible;
+}
+#Page2 {
+    grid-column: 2 / span 1;
+    visibility: visible;
+}
+#Page3 {
+    grid-column: 3 / span 1;
+    visibility: visible;
+}
+#Page4 {
+    grid-column: 4 / span 1;
+    visibility: visible;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    padding: 20px;
+    column-gap: 60px;
+}
+#OorOns ul {
+    padding-left: 30px;
+}
+#Books {
+    width: 100%;
+}
+
+/* Screen Size */
+/* Extra Small Devices (phones) */
+@media (max-width: 576px) {
+    
+}
+
+/* Small Devices (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+    
+}
+
+/* Medium Devices (laptops) */
+@media (min-width: 769px) and (max-width: 992px) {
+    
+}
+
+/* Large Devices (desktops) */
+@media (min-width: 993px) {
+    
+}
