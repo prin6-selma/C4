@@ -4,8 +4,8 @@ const products = [
         id: "C1",
         name: "Affirmations Calendar",
         image: [
-            "img/Aff1.png",
-            "img/Aff2.png"
+            "IMG/Aff1.png",
+            "IMG/Aff2.png"
         ],
         price: 185
     },
@@ -13,8 +13,8 @@ const products = [
         id: "C2",
         name: "Birds Calendar",
         image: [
-            "img/Bir1.png",
-            "img/Bir2.png"
+            "IMG/Bir1.png",
+            "IMG/Bir2.png"
         ],
         price: 200
     },
@@ -22,8 +22,8 @@ const products = [
         id: "C3",
         name: "Cats Calendar",
         image: [
-            "img/Cat1.png",
-            "img/Cat2.png"
+            "IMG/Cat1.png",
+            "IMG/Cat2.png"
         ],
         price: 175
     },
@@ -31,8 +31,8 @@ const products = [
         id: "C4",
         name: "CD Calendar",
         image: [
-            "img/CD1.png",
-            "img/CD2.png"
+            "IMG/CD1.png",
+            "IMG/CD2.png"
         ],
         price: 190
     },
@@ -40,8 +40,8 @@ const products = [
         id: "C5",
         name: "Dogs Calendar",
         image: [
-            "img/Dog1.png",
-            "img/Dog2.png"
+            "IMG/Dog1.png",
+            "IMG/Dog2.png"
         ],
         price: 185
     },
@@ -49,8 +49,8 @@ const products = [
         id: "C6",
         name: "Flowers Calendar",
         image: [
-            "img/Flo1.png",
-            "img/Flo2.png"
+            "IMG/Flo1.png",
+            "IMG/Flo2.png"
         ],
         price: 210
     },
@@ -58,8 +58,8 @@ const products = [
         id: "C7",
         name: "Idioms Calendar",
         image: [
-            "img/Idi1.png",
-            "img/Idi2.png"
+            "IMG/Idi1.png",
+            "IMG/Idi2.png"
         ],
         price: 180
     },
@@ -67,8 +67,8 @@ const products = [
         id: "C8",
         name: "Men Calendar",
         image: [
-            "img/Men1.png",
-            "img/Men2.png"
+            "IMG/Men1.png",
+            "IMG/Men2.png"
         ],
         price: 200
     },
@@ -76,8 +76,8 @@ const products = [
         id: "C9",
         name: "Mixed Calendar",
         image: [
-            "img/Mix1.png",
-            "img/Mix2.png"
+            "IMG/Mix1.png",
+            "IMG/Mix2.png"
         ],
         price: 190
     },
@@ -85,8 +85,8 @@ const products = [
         id: "C10",
         name: "Modern Wallpapers Calendar",
         image: [
-            "img/MW1.png",
-            "img/MW2.png"
+            "IMG/MW1.png",
+            "IMG/MW2.png"
         ],
         price: 210
     },
@@ -94,8 +94,8 @@ const products = [
         id: "C11",
         name: "Patterns Calendar",
         image: [
-            "img/Pat1.png",
-            "img/Pat2.png"
+            "IMG/Pat1.png",
+            "IMG/Pat2.png"
         ],
         price: 175
     },
@@ -103,9 +103,9 @@ const products = [
         id: "C12",
         name: "Wall Art Calendar",
         image: [
-            "img/WA1.png",
-            "img/WA2.png",
-            "img/WA3.png"
+            "IMG/WA1.png",
+            "IMG/WA2.png",
+            "IMG/WA3.png"
         ],
         price: 225
     },
@@ -113,9 +113,9 @@ const products = [
         id: "C13",
         name: "Weather Calendar",
         image: [
-            "img/WE1.png",
-            "img/WE2.png",
-            "img/WE3.png"
+            "IMG/WE1.png",
+            "IMG/WE2.png",
+            "IMG/WE3.png"
         ],
         price: 195
     },
@@ -123,8 +123,8 @@ const products = [
         id: "C14",
         name: "Women Calendar",
         image: [
-            "img/Wom1.png",
-            "img/Wom2.png"
+            "IMG/Wom1.png",
+            "IMG/Wom2.png"
         ],
         price: 185
     }
