@@ -101,7 +101,7 @@ const products = [
     },
     {
         id: "C12",
-        name: "Wall Art Calendar",
+        name: "Afr Week Beplaner",
         image: [
             "IMG/WA1.png",
             "IMG/WA2.png",
@@ -111,7 +111,7 @@ const products = [
     },
     {
         id: "C13",
-        name: "Weather Calendar",
+        name: "Eng Weekly Planer",
         image: [
             "IMG/WE1.png",
             "IMG/WE2.png",
