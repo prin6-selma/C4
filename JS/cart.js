@@ -75,29 +75,38 @@ function renderCartItems() {
 
     // Clear existing items
     cartItemsContainer.innerHTML = '';
-
+    var totalPrice = 0;
     cart.forEach(item => {
         const li = document.createElement('li');
         const span = document.createElement('span');
         const img = document.createElement('img');
-        const sed = document.createElement('input');
+        const input = document.createElement('input');
         const button = document.createElement('button');
 
         li.classList.add('cart-item');
 
+        span.innerHTML = `${item.Product.name}`;
 
+        img.src = item.Product.image[0];
+        img.alt = `Image of ${item.Product.name}`;
+        img.width = 75;
 
+        input.type = 'number';
+        input.value = item.Quantity;
 
-        li.innerHTML = `
-            <span>${item.Product.name}</span>
-            <img src="${item.Product.image[0]}" alt="${item.Product.name}" width="50">
-            
-            <button onclick="removeFromCart('${item.Product.id}')">Remove</button>
-        `;
+        button.innerText = 'Remove'; // Add text to the button
+        button.onclick = () => removeFromCart(item.Product.id);
+
+        li.append(span, img, input, button);        
         cartItemsContainer.appendChild(li);
+        
+        totalPrice += item.Product.price;
     });
 
-    cartTotalContainer.innerText = `Total Items: ${cart.length}`;
+    cartTotalContainer.innerHTML = `
+        <span>Total Items: ${cart.length}</span> <br>
+        <span>Total Price: R${totalPrice.toFixed(2)}</span>
+    `;
 }
 
 // Initialize cart on page load (for cart.html)

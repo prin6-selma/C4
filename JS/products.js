@@ -4,8 +4,8 @@ const products = [
         id: "C1",
         name: "Affirmations Calendar",
         image: [
-            "IMG/Aff1.png",
-            "IMG/Aff2.png"
+            "IMG/Aff1.jpg",
+            "IMG/Aff2.jpg"
         ],
         price: 185
     },
@@ -13,35 +13,35 @@ const products = [
         id: "C2",
         name: "Birds Calendar",
         image: [
-            "IMG/Bir1.png",
-            "IMG/Bir2.png"
+            "IMG/Bir1.jpg",
+            "IMG/Bir2.jpg"
         ],
-        price: 200
+        price: 185
     },
     {
         id: "C3",
         name: "Cats Calendar",
         image: [
-            "IMG/Cat1.png",
-            "IMG/Cat2.png"
+            "IMG/Cat1.jpg",
+            "IMG/Cat2.jpg"
         ],
-        price: 175
+        price: 185
     },
     {
         id: "C4",
         name: "CD Calendar",
         image: [
-            "IMG/CD1.png",
-            "IMG/CD2.png"
+            "IMG/CD1.jpg",
+            "IMG/CD2.jpg"
         ],
-        price: 190
+        price: 185
     },
     {
         id: "C5",
         name: "Dogs Calendar",
         image: [
-            "IMG/Dog1.png",
-            "IMG/Dog2.png"
+            "IMG/Dog1.jpg",
+            "IMG/Dog2.jpg"
         ],
         price: 185
     },
@@ -49,82 +49,82 @@ const products = [
         id: "C6",
         name: "Flowers Calendar",
         image: [
-            "IMG/Flo1.png",
-            "IMG/Flo2.png"
+            "IMG/Flo1.jpg",
+            "IMG/Flo2.jpg"
         ],
-        price: 210
+        price: 185
     },
     {
         id: "C7",
         name: "Idioms Calendar",
         image: [
-            "IMG/Idi1.png",
-            "IMG/Idi2.png"
+            "IMG/Idi1.jpg",
+            "IMG/Idi2.jpg"
         ],
-        price: 180
+        price: 185
     },
     {
         id: "C8",
         name: "Men Calendar",
         image: [
-            "IMG/Men1.png",
-            "IMG/Men2.png"
+            "IMG/Men1.jpg",
+            "IMG/Men2.jpg"
         ],
-        price: 200
+        price: 185
     },
     {
         id: "C9",
         name: "Mixed Calendar",
         image: [
             "IMG/Mix1.png",
-            "IMG/Mix2.png"
+            "IMG/Mix2.jpg"
         ],
-        price: 190
+        price: 185
     },
     {
         id: "C10",
         name: "Modern Wallpapers Calendar",
         image: [
-            "IMG/MW1.png",
-            "IMG/MW2.png"
+            "IMG/MW1.jpg",
+            "IMG/MW2.jpg"
         ],
-        price: 210
+        price: 185
     },
     {
         id: "C11",
         name: "Patterns Calendar",
         image: [
-            "IMG/Pat1.png",
-            "IMG/Pat2.png"
+            "IMG/Pat1.jpg",
+            "IMG/Pat2.jpg"
         ],
-        price: 175
+        price: 185
     },
     {
         id: "C12",
         name: "Afr Week Beplaner",
         image: [
-            "IMG/WA1.png",
-            "IMG/WA2.png",
-            "IMG/WA3.png"
+            "IMG/WA1.jpg",
+            "IMG/WA2.jpg",
+            "IMG/WA3.jpg"
         ],
-        price: 225
+        price: 175
     },
     {
         id: "C13",
         name: "Eng Weekly Planer",
         image: [
-            "IMG/WE1.png",
-            "IMG/WE2.png",
-            "IMG/WE3.png"
+            "IMG/WE1.jpg",
+            "IMG/WE2.jpg",
+            "IMG/WE3.jpg"
         ],
-        price: 195
+        price: 175
     },
     {
         id: "C14",
         name: "Women Calendar",
         image: [
-            "IMG/Wom1.png",
-            "IMG/Wom2.png"
+            "IMG/Wom1.jpg",
+            "IMG/Wom2.jpg"
         ],
         price: 185
     }
