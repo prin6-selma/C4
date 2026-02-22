@@ -21,3 +21,9 @@ body {
 section {
     width: 100%;
 }
+
+.card {
+    border-radius: 12px;
+    background-color: #e100ff;
+    color: rgb(116, 255, 250);
+}
