@@ -56,6 +56,11 @@ section {
     line-height: 1.6;
 }
 
+.text-pop {
+    font-weight: bolder;
+    color: var(--accent);
+}
+
 @media screen and (min-width: 768px) {
     /* Tablet and up */
     .content-block p {
